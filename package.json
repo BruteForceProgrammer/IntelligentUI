@@ -1,0 +1,34 @@
+{
+  "name": "@intelligent_ui/intelligent_ui",
+  "version": "1.0.0",
+  "description": "Track user interactions and store them on the client side. Render components according to the order of interaction",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BruteForceProgrammer/IntelligentUI.git"
+  },
+  "author": "Sarthak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BruteForceProgrammer/IntelligentUI/issues"
+  },
+  "homepage": "https://github.com/BruteForceProgrammer/IntelligentUI#readme",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.5",
+    "react": "^18.2.0",
+    "react-native": "^0.72.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
